@@ -1,0 +1,114 @@
+.country-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/landscape-shot-taken-serpentine-road-tf-436-masca-spain_181624-36970.jpg?t=st=1720384354~exp=1720387954~hmac=84b67fdfb428b299b6d34b77a8b1b96edb932cbe6b4e32fee1afeba7f099e2de&w=1060');
+  background-size: cover;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.large-card {
+  width: 100%;
+  max-width: 1000px;
+  height: 350px;
+}
+
+.small-card {
+  width: 25%;
+  height: 200px;
+}
+
+.country-flag {
+  width: 100%;
+  height: 100%;
+}
+
+.flag-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.small-card:hover .flag-description {
+  transform: translateY(0);
+}
+
+.see-more-button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #00bfff;
+  color: white;
+  cursor: pointer;
+}
+
+.see-more-button:hover {
+  background-color: #0099cc;
+}
+
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.dialog-box {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 50%;
+  height: 80%;
+  overflow-y: auto;
+  color: black;
+}
+
+.dialog-box h2 {
+  margin-top: 0;
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/landscape-cultivated-ground_1232-859.jpg?t=st=1720381751~exp=1720385351~hmac=1e853a5ec038c7a9d3d6491adbe19d042a17de119922f917297b09c934b4792d&w=1060');
+    background-size: cover;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-input {
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .find-button {
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .find-button:hover {
+    background-color: #0056b3;
+  }
+  
